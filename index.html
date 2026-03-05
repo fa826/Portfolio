@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fatima Qayyum | Accounting Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html">Fatima Qayyum</a>
+      <div class="nav-links">
+        <a class="btn" href="./about.html">About</a>
+        <a class="btn" href="./projects.html">Projects</a>
+        <a class="btn" href="./certificates.html">Certificates</a>
+        <a class="btn" href="./ProfessionalExperience.html">Work Experience</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container hero">
+    <div class="hero-left">
+      <h1>Accounting<h4>GPA: 3.43</h64></h1>
+      <p></p>
+      <p class="subtitle">
+        I build Excel-based financial models, analyze cost accounting data, and use technology to create clear,
+        decision-ready insights.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="./projects.html">View Projects</a>
+        <a class="btn" href="./certificates.html">View Experiences</a>
+      </div>
+
+      <div class="quick-stats">
+        <div class="stat">
+          <div class="stat-num">Excel</div>
+          <div class="stat-label">Modeling & Analysis</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">VITA</div>
+          <div class="stat-label">Tax Volunteer Training</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">Audit Analytics</div>
+          <div class="stat-label">Data Testing • Variance Investigation</div>
+        </div>
+        <div class="stat">
+            <div class="stat-num">Associate in Science</div>
+            <div class="stat-label">Honors • Bilogy-Science</div>
+            <span class="experience-date">December 16, 2023 </span>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="hero-right">
+      <img class="avatar" src="./profile.jpeg" alt="Photo of Fatima Qayyum" />
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>What I’m focused on</h2>
+      <ul class="bullets">
+        <li>Financial forecasting + scenario analysis (conservative/expected/aggressive)</li>
+        <li>Cost accounting + break-even thinking for real decisions</li>
+        <li>Building clean, explainable models and dashboards</li>
+      </ul>
+    </section>
+
+    <section class="grid two-col">
+      <article class="card">
+        <h2>Featured Project</h2>
+        <h3 class="h3">Event Financial Forecasting Model</h3>
+        <p class="muted">
+          Dynamic budgeting model using assumptions, revenue drivers, cost structure, scenarios, and break-even analysis.
+        </p>
+        <div class="card-links">
+          <a href="./financial_forecast_netimpact.xlsx" target="_blank" rel="noreferrer">Open Excel</a>
+          <a href="./projects.html">See all projects →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Want the quick version?</h2>
+        <p class="muted">
+          Go to <b>About</b> for my background and skills, or <b>Projects</b> for work samples.
+        </p>
+        <div class="card-links">
+          <a class="btn" href="./about.html">About Me</a>
+          <a class="btn" href="./projects.html">Projects</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Fatima Qayyum</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

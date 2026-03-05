@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About | Fatima Qayyum</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="./index.html">Fatima Qayyum</a>
+      <div class="nav-links">
+        <a class="btn" href="./about.html">About</a>
+        <a class="btn" href="./projects.html">Projects</a>
+        <a class="btn" href="./certificates.html">Certificates</a>
+        <a class="btn" href="./ProfessionalExperience.html">Work Experience Letter</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container page-header">
+    <h1>About Me</h1>
+    <p class="subtitle">A quick overview about me.</p>
+  </header>
+
+  <main class="container">
+    <section class="grid two-col">
+      <article class="card">
+        <h2>Hi — I’m Fatima</h2>
+        <p class="muted">
+          I’m an Accounting + Computer Programming student focused on turning data into decisions.
+          I enjoy building clean Excel models, analyzing costs, and using tech (SQL/APIs/web tools) to make work more efficient.
+        </p>
+        <p class="muted">
+          This is my portfolio of accounting analytics projects (forecasting, break-even, cost behavior, and reporting).
+        </p>
+      </article>
+
+      <article class="card center">
+        <img class="avatar lg" src="./profile.jpeg" alt="Photo of Fatima Qayyum" />
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div>
+          <h3 class="h3">Accounting & Analytics</h3>
+          <ul class="bullets">
+            <li>Budgeting & forecasting models (Excel)</li>
+            <li>Scenario analysis (conservative / expected / aggressive)</li>
+            <li>Break-even analysis (CVP thinking)</li>
+            <li>Cost accounting concepts (course projects)</li>
+          </ul>
+        </div>
+
+         <div>
+          <h3 class="h3">Coursework</h3>
+          <ul class="bullets">
+            <li>Financial Accounting</li>
+            <li>Macroeconomic Analysis</li>
+            <li>Microeconomic Analysis</li>
+            <li>Managerial accounting</li>
+            <li>Management and Organizational Behavior</li>
+            <li>Business Finance</li>
+            <li>Federal Tax Accounting</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="h3">Tools</h3>
+          <ul class="bullets">
+            <li>Microsoft Excel (formulas, structured models)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="h3">Languages</h3>
+          <ul class="bullets">
+            <li>English (Fluent)</li>
+            <li>Urdu (Fluent)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Interests</h2>
+      <p class="muted">
+       <ul class="bullets">
+         <li>Predictive Modeling for Business Decisions</li>  
+        <li>Business Intelligence Systems</li> 
+        <li>Managerial & Cost Accounting </li>
+        <li>Data-driven business decisions</li>
+        <li>Audit Analytics & Data Testing</li>
+        <li>Fraud Detection & Prevention</li>
+       </ul>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Fatima Qayyum</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
